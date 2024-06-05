@@ -36,3 +36,6 @@ elif page == 'Billing Amounts by Condition':
     st.header('Billing Amounts by Medical Condition')
     fig = px.box(data, x='Medical Condition', y='Billing Amount', title='Billing Amounts by Medical Condition')
     st.plotly_chart(fig)
+
+# Hello world
+print("Hello World")
